@@ -1,0 +1,62 @@
+.cabecalho {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px, 30px;
+}
+
+nav {
+    display: flex;
+    gap: 15px;
+}
+
+body {
+    height: 100vh;
+}
+
+#sobrenome {
+    color: rgb(0, 130, 252);
+}
+
+
+.banner img {
+    width: 150px;
+    height: 100px;
+    border-radius: 50px;
+}
+
+.banner-texto {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.produtos {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 980px;
+    margin: 0 auto;
+}
+
+.produto:hover {
+ transform: scale(1.02) 
+}
+
+.produto {
+
+}
+
+
+
+
+.catalogo {
+    padding: 25px, 8%;
+}
+
+.catalogo h2 {
+    text-align: center;
+}
