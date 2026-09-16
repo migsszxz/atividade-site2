@@ -3,6 +3,11 @@
     align-items: center;
     justify-content: space-between;
     padding: 15px, 30px;
+    margin: 20px;
+}
+
+#formacao {
+    color: rgb(62, 62, 247);
 }
 
 nav {
@@ -14,10 +19,15 @@ body {
     height: 100vh;
 }
 
-#sobrenome {
-    color: rgb(0, 130, 252);
+.banner {
+display: flex;
+align-items: center;
+background-color: rgb(99, 252, 252);
+gap: 60px;
+padding-left: 40px;
+padding-top: 10px;
+padding-bottom: 10px;
 }
-
 
 .banner img {
     width: 150px;
@@ -32,7 +42,7 @@ body {
     justify-content: center;
 }
 
-.produtos {
+.projetos {
     display: flex;
     gap: 40px;
     align-items: center;
@@ -42,15 +52,30 @@ body {
     margin: 0 auto;
 }
 
-.produto:hover {
+.produtos:hover {
  transform: scale(1.02) 
 }
 
-.produto {
-
+.produtos {
+border: 2px solid black;
+border-radius: 8px;
 }
 
+.produtos h3 {
+    display: flex;
+    justify-content: center;
+}
 
+.produtos p {
+    display: flex;
+    justify-content: center;
+}
+
+.rodape {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
 
 
 .catalogo {
@@ -59,4 +84,13 @@ body {
 
 .catalogo h2 {
     text-align: center;
+}
+
+footer {
+    display: flex;
+    background-color: rgb(99, 252, 252);
+}
+
+main {
+    height: 60vh;
 }
